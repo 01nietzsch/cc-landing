@@ -43,7 +43,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        "https://git.heroku.com/coding-challenge2.git/predict",
+        "https://coding-challenge2-f9880008ff60.herokuapp.com/predict",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
