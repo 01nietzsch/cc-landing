@@ -66,6 +66,16 @@ function App() {
         <div className="header-left">
           <h1 className="team-name">Coding Challenge 2025</h1>
         </div>
+        {/* <div className="header-right">
+          <button
+            className="doc-button"
+            onClick={() =>
+              window.open("https://your-documentation-link.com", "_blank")
+            }
+          >
+            Documentation
+          </button>
+        </div> */}
       </header>
 
       {/* Light Nodes */}
@@ -106,6 +116,17 @@ function App() {
           <p>Elongation: {resultModel3}</p>
         </div>
       )}
+      {/* <div className="final-paragraph">
+        <p>
+          Finally, with our algorithms trained, we were able to apply them to a
+          randomly generated data set of potential steels and select the
+          strongest steels, with the least amount of Co and Ni in their
+          compositions.
+        </p>
+        <img src="image1" alt="image1" />
+        <img src="./public/image2.png" alt="image2" />
+        <img src="/public/image3.png" alt="image3" />
+      </div> */}
     </div>
   );
 }
